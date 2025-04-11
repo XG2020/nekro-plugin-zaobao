@@ -22,7 +22,7 @@ class ZaobaoConfig(ConfigBase):
     API_TOKEN: str = Field(
         ...,
         title="API令牌",
-        description="Alapi.cn 的 API 访问令牌",
+        description="ALAPI Token密钥 <a href='https://www.alapi.cn/' target='_blank'>获取地址</a>",
     )
     API_URL: str = Field(
         default="https://v3.alapi.cn/api/zaobao",
