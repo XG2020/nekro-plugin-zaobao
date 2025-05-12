@@ -26,7 +26,7 @@ plugin = NekroPlugin(
 class ZaobaoConfig(ConfigBase):
     """早报插件配置"""
     API_TOKEN: str = Field(
-        ...,
+        default="",
         title="API令牌",
         description="Alapi.cn 的 API 访问令牌",
     )
