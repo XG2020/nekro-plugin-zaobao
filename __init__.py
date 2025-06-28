@@ -15,7 +15,7 @@ from nekro_agent.core import logger
 # 插件实例
 plugin = NekroPlugin(
     name="每日早报插件",
-    module_name="zaobao_plugin",
+    module_name="nekro-plugin-zaobao",
     description="提供每日早报信息，包括新闻头条和微语",
     version="1.0.1", 
     author="XGGM",
